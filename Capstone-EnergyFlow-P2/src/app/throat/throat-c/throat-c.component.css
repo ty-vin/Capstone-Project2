@@ -1,0 +1,23 @@
+
+
+/* text */
+
+.thro{
+    text-align: center;
+    /* margin: -375px 60px; */
+     margin-left: auto;
+     margin-top: -450px;
+     margin-bottom: 100px;
+     padding-bottom: 50px;
+   }
+   
+   /* pict*/
+
+   .cent{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: -150px;
+       margin-bottom: 40px;
+       width: 50%;
+     }
