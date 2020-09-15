@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Rawstones } from "../rawstones";
+import { Rawstone } from "../rawstone";
 
 @Component({
   selector: 'app-rawstones',
@@ -8,7 +8,7 @@ import { Rawstones } from "../rawstones";
 })
 export class RawstonesComponent implements OnInit {
 
-  rawstonesArray: Rawstones[] = [
+  rawstoneArray: Rawstone[] = [
     {
       name: "Tourmalne",
       size: "Small (3 cm)",
@@ -27,8 +27,7 @@ export class RawstonesComponent implements OnInit {
       price: 1
     },
   
-    
-  ]
+  ];
 
   constructor() { }
 

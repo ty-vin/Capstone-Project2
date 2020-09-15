@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Rings } from "../rings";
+import { Ring } from "../ring";
 
 @Component({
   selector: 'app-rings',
@@ -8,7 +8,7 @@ import { Rings } from "../rings";
 })
 export class RingsComponent implements OnInit {
 
-  ringsArray: Rings[] = [
+  ringArray: Ring[] = [
   {
     name: "Smokey Quartz",
     size: 7.5,
@@ -32,7 +32,8 @@ export class RingsComponent implements OnInit {
     size: 5.5,
     price: 107
   },
-]
+];
+
   constructor() { }
 
   ngOnInit(): void {

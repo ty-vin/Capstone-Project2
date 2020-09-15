@@ -1,5 +1,5 @@
 
-export interface Rawstones {
+export interface Rawstone {
     name: string;
     size: string;
     price: number;

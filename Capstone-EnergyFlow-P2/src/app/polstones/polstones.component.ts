@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Polstones } from "../polstones";
+import { Polstone } from "../polstone";
 
 
 @Component({
@@ -9,7 +9,7 @@ import { Polstones } from "../polstones";
 })
 export class PolstonesComponent implements OnInit {
 
-  polstonesArray: Polstones[] = [
+  polstoneArray: Polstone[] = [
     {
       name: "Citrine",
       size: "Medium (8.5 cm)",
@@ -22,9 +22,7 @@ export class PolstonesComponent implements OnInit {
       price: 12
     },
     
-  
-    
-  ]
+  ];
 
   constructor() { }
 
