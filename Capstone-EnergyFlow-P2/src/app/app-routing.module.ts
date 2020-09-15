@@ -1,3 +1,4 @@
+
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -11,8 +12,15 @@ import { SolarCComponent } from './solar/solar-c/solar-c.component';
 import { ThirdeyeCComponent } from './thirdeye/thirdeye-c/thirdeye-c.component';
 import { ThroatCComponent } from './throat/throat-c/throat-c.component';
 import { WelcomeCComponent } from './welcome/welcome-c/welcome-c.component';
+import { PolstonesComponent } from './polstones/polstones.component';
+import { RawstonesComponent } from './rawstones/rawstones.component';
+import { RingsComponent } from './rings/rings.component';
 
+//rings
 
+//polstones
+
+//rawstones
 
 const routes: Routes = [
 
@@ -26,6 +34,12 @@ const routes: Routes = [
   { path: 'solar', component: SolarCComponent },
   { path: 'thirdeye', component: ThirdeyeCComponent },
   { path: 'throat', component: ThroatCComponent },
+
+  { path: 'polstones', component: PolstonesComponent },
+  { path: 'rawstones', component: RawstonesComponent },
+  { path: 'rings', component: RingsComponent },
+  
+
   {path: '', redirectTo: '', pathMatch: 'full' }
 
 

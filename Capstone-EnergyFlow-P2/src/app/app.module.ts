@@ -10,13 +10,19 @@ import { MatButtonModule } from '@angular/material/button';  /* slide over menu 
 import { MatIconModule } from '@angular/material/icon';  /* slide over menu */
 import { MatSidenavModule } from '@angular/material/sidenav';  /* slide over menu */
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { RingsComponent } from './rings/rings.component';
+import { PolstonesComponent } from './polstones/polstones.component';
+import { RawstonesComponent } from './rawstones/rawstones.component';
 
 //import { MainCComponent } from './main-c/main-c.component'; 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RingsComponent,
+    PolstonesComponent,
+    RawstonesComponent
    // MainCComponent
     
   ],
