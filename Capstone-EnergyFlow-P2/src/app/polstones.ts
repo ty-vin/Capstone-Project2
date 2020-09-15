@@ -1,6 +1,6 @@
 
-export interface Polystone {
+export interface Polstones {
     name: string;
-    size: number;
+    size: string;
     price: number;
 }
